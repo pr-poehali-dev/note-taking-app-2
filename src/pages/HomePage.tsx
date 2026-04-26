@@ -44,10 +44,7 @@ export default function HomePage() {
                   background: 'linear-gradient(135deg, hsl(270 100% 65%), hsl(290 100% 60%))',
                   color: 'white',
                 }}
-              >
-                <Icon name="Plus" size={16} />
-                Новая
-              </button>
+              >Новое</button>
             </div>
           </div>
 
