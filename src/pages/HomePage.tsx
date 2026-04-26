@@ -21,7 +21,7 @@ export default function HomePage() {
   const rest = filtered.filter(n => !n.isPinned);
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen flex flex-col bg-slate-400">
       {/* Header */}
       <header className="sticky top-0 z-10 px-4 pt-6 pb-3" style={{ background: 'hsl(230 20% 6% / 0.95)', backdropFilter: 'blur(16px)' }}>
         <div className="max-w-2xl mx-auto">
