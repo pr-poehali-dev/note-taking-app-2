@@ -27,9 +27,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h1 className="text-2xl font-bold text-neon-purple" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                NeonNotes
-              </h1>
+              <h1 className="text-2xl font-bold text-neon-purple" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>ALEX_ЗАМЕТКИ</h1>
               <p className="text-xs text-gray-500">{notes.length} заметок</p>
             </div>
             <div className="flex items-center gap-2">
