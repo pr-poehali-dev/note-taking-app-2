@@ -21,7 +21,7 @@ export default function HomePage() {
   const rest = filtered.filter(n => !n.isPinned);
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-400">
+    <div className="min-h-screen flex flex-col bg-orange-50">
       {/* Header */}
       <header className="sticky top-0 z-10 px-4 pt-6 pb-3" style={{ background: 'hsl(230 20% 6% / 0.95)', backdropFilter: 'blur(16px)' }}>
         <div className="max-w-2xl mx-auto">
@@ -120,7 +120,7 @@ export default function HomePage() {
               <section className="mt-4 mb-6">
                 <div className="flex items-center gap-2 mb-3">
                   <Icon name="Pin" size={13} className="text-yellow-400" />
-                  <span className="text-xs font-semibold text-yellow-400 uppercase tracking-wider">Закреплённые</span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-[#000000]">Закреплённые</span>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   {pinned.map(note => (
